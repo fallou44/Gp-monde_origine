@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des Cargaisons</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 h-screen">
+  <div class="flex h-full">
+    <!-- Sidebar -->
+    <div class="bg-blue-800 text-white w-64 p-5">
+      <h1 class="text-2xl font-bold mb-5">Menu</h1>
+      <ul>
+        <li class="mb-3"><a href="#" onclick="showSection('cargoSection')" class="hover:text-gray-300">Ajouter Cargaison</a></li>
+        <li class="mb-3"><a href="#" onclick="showSection('productSection')" class="hover:text-gray-300">Ajouter Produit</a></li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 p-5">
+      <h1 class="text-3xl font-bold mb-5">Gestion des Cargaisons</h1>
+
+      <!-- Section Ajouter Cargaison -->
+      <div id="cargoSection" class="hidden flex">
+        <!-- Formulaire d'ajout de cargaison -->
+        <div class="w-1/3 h-80 bg-white p-5 shadow-lg rounded-xl mb-5">
+          <h2 class="text-xl font-bold mb-3">Ajouter une Cargaison</h2>
+          <form id="addCargoForm">
+            <div class="mb-3">
+              <label for="cargoType" class="block text-gray-700">Type de Cargaison</label>
+              <select id="cargoType" class="w-full p-2 border border-gray-300 rounded">
+                <option value="Aerienne">Aérienne</option>
+                <option value="Maritime">Maritime</option>
+                <option value="Routiere">Routière</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="distance" class="block text-gray-700">Distance (km)</label>
+              <input type="number" id="distance" class="w-full p-2 border border-gray-300 rounded" required>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Ajouter Cargaison</button>
+          </form>
+        </div>
+
+        <!-- Liste des cargaisons -->
+        <div class="w-2/3  bg-white p-5 shadow-lg rounded-xl mb-5 ml-5">
+          <h2 class="text-xl font-bold mb-3">Cargaisons</h2>
+          <ul id="cargosList">
+            <!-- Les cargaisons seront ajoutées ici -->
+          </ul>
+        </div>
+      </div>
+
+      <!-- Section Ajouter Produit -->
+      <div id="productSection" class="hidden flex">
+        <!-- Formulaire d'ajout de produit -->
+        <div class="w-1/3 h-96 bg-white p-5 shadow-lg rounded-xl mb-5">
+          <h2 class="text-xl font-bold mb-3">Ajouter un Produit</h2>
+          <form id="addProductForm">
+            <div class="mb-3">
+              <label for="productType" class="block text-gray-700">Type de Produit</label>
+              <select id="productType" class="w-full p-2 border border-gray-300 rounded">
+                <option value="Alimentaire">Alimentaire</option>
+                <option value="Chimique">Chimique</option>
+                <option value="Materiel">Matériel</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="productName" class="block text-gray-700">Libellé</label>
+              <input type="text" id="productName" class="w-full p-2 border border-gray-300 rounded" required>
+            </div>
+            <div class="mb-3">
+              <label for="productWeight" class="block text-gray-700">Poids (kg)</label>
+              <input type="number" id="productWeight" class="w-full p-2 border border-gray-300 rounded" required>
+            </div>
+            <div class="mb-3 hidden" id="toxicityLevelContainer">
+              <label for="toxicityLevel" class="block text-gray-700">Degré de Toxicité</label>
+              <input type="number" id="toxicityLevel" class="w-full p-2 border border-gray-300 rounded">
+            </div>
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Ajouter Produit</button>
+          </form>
+        </div>
+
+        <!-- Liste des produits -->
+        <div class="w-2/3 bg-white p-5 shadow-lg rounded-xl mb-5 ml-5">
+          <h2 class="text-xl font-bold mb-3">Produits</h2>
+          <ul id="productsList">
+            <!-- Les produits seront ajoutés ici -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../dist/app.js" type="module"></script>
+  <script>
+    // Function to show the corresponding section
+    function showSection(sectionId) {
+      // Hide all sections
+      document.getElementById('cargoSection').classList.add('hidden');
+      document.getElementById('productSection').classList.add('hidden');
+
+      // Show the selected section
+      document.getElementById(sectionId).classList.remove('hidden');
+    }
+
+    // Show the cargo section by default
+    showSection('cargoSection');
+
+    // Handle product type change to show/hide toxicity level field
+    document.getElementById('productType').addEventListener('change', function() {
+      const toxicityLevelContainer = document.getElementById('toxicityLevelContainer');
+      if (this.value === 'Chimique') {
+        toxicityLevelContainer.classList.remove('hidden');
+      } else {
+        toxicityLevelContainer.classList.add('hidden');
+      }
+    });
+
+    // Add your form submission handling code here...
+  </script>
+</body>
+</html>

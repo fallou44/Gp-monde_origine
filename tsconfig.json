@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",                        // Version de JavaScript ciblée
+      "module": "ESNext",                   // Système de module utilisé
+      "strict": true,                         // Activer toutes les vérifications strictes
+      "esModuleInterop": true,                // Activer l'interopérabilité avec les modules ES
+      "skipLibCheck": true,                   // Ignorer la vérification des fichiers de type .d.ts
+      "forceConsistentCasingInFileNames": true, // Force un respect strict de la casse des noms de fichiers
+      "outDir": "./dist",                     // Répertoire de sortie pour les fichiers compilés
+      "rootDir": "./src"                      // Répertoire racine pour les fichiers sources
+    },
+    "include": [
+      "./src/**/*.ts",                        // Inclure tous les fichiers TypeScript dans le répertoire src
+      "./classes/**/*.ts"                     // Inclure tous les fichiers TypeScript dans le répertoire classes
+    ],
+    "exclude": [
+      "node_modules"                          // Exclure le répertoire node_modules
+    ]
+  }
+  
