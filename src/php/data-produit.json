@@ -1,0 +1,137 @@
+[
+    {
+        "numero": "CARGO001",
+        "poids_max": 1000,
+        "prix": 0,
+        "depart": "Paris",
+        "arrivee": "Londres",
+        "distance": 450,
+        "type": "maritime",
+        "statut": "en_cours",
+        "etat": "ouvert",
+        "date_depart": "2024-05-01",
+        "date_arrivee": "2024-05-05",
+        "cargo_plein": "non",
+        "produits": [
+            {
+                "nom": "Pommes",
+                "poids": 200,
+                "type": "alimentaire",
+                "etat": "frais",
+                "client": {
+                    "nom": "Dupont",
+                    "prenom": "Jean",
+                    "telephone": "123456789",
+                    "adresse": "123 Rue de Paris"
+                },
+                "destinataire": {
+                    "nom": "Smith",
+                    "prenom": "John",
+                    "telephone": "987654321",
+                    "adresse": "456 Rue de Londres"
+                }
+            },
+            {
+                "nom": "Produit Chimique A",
+                "poids": 50,
+                "type": "chimique",
+                "degree_toxicite": 7,
+                "etat": "liquide",
+                "client": {
+                    "nom": "Martin",
+                    "prenom": "Paul",
+                    "telephone": "111222333",
+                    "adresse": "789 Rue de Paris"
+                },
+                "destinataire": {
+                    "nom": "Johnson",
+                    "prenom": "Mike",
+                    "telephone": "444555666",
+                    "adresse": "101 Rue de Londres"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CARGO002",
+        "poids_max": 2000,
+        "prix": 0,
+        "depart": "New York",
+        "arrivee": "Los Angeles",
+        "distance": 4500,
+        "type": "aerien",
+        "statut": "en_attente",
+        "etat": "ouvert",
+        "date_depart": "2024-06-01",
+        "date_arrivee": "2024-06-02",
+        "cargo_plein": "non",
+        "produits": [
+            {
+                "nom": "Ordinateur Portable",
+                "poids": 5,
+                "type": "materiel",
+                "type_materiel": "cassable",
+                "etat": "neuf",
+                "client": {
+                    "nom": "Baker",
+                    "prenom": "Alice",
+                    "telephone": "555666777",
+                    "adresse": "102 Rue de New York"
+                },
+                "destinataire": {
+                    "nom": "Davis",
+                    "prenom": "Emma",
+                    "telephone": "888999000",
+                    "adresse": "203 Rue de Los Angeles"
+                }
+            },
+            {
+                "nom": "TV LED",
+                "poids": 10,
+                "type": "materiel",
+                "type_materiel": "cassable",
+                "etat": "neuf",
+                "client": {
+                    "nom": "Johnson",
+                    "prenom": "Chris",
+                    "telephone": "222333444",
+                    "adresse": "304 Rue de New York"
+                },
+                "destinataire": {
+                    "nom": "Wilson",
+                    "prenom": "David",
+                    "telephone": "555666777",
+                    "adresse": "405 Rue de Los Angeles"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN952",
+        "poids_max": "9",
+        "prix": "6",
+        "depart": "13.624633438236152, -12.623291015625",
+        "arrivee": "12.404388944669792, -12.403564453125",
+        "distance": "137.76",
+        "type": "aerienne",
+        "statut": "termine",
+        "etat": "ouvert",
+        "date_depart": "1993-03-10",
+        "date_arrivee": "2018-02-04",
+        "cargo_plein": "poids"
+    },
+    {
+        "numero": "CGN908",
+        "poids_max": "84",
+        "prix": "9",
+        "depart": "14.28567730018259, -15.809326171875002",
+        "arrivee": "13.752724664396988, -13.743896484375002",
+        "distance": "230.57",
+        "type": "maritime",
+        "statut": "en-attente",
+        "etat": "ouvert",
+        "date_depart": "2001-07-29",
+        "date_arrivee": "2012-04-07",
+        "cargo_plein": "nombre"
+    }
+]

@@ -1,0 +1,722 @@
+[
+    {
+        "numero": "CGN418",
+        "poids_max": "30",
+        "prix": "54",
+        "depart": "Communaut\u00e9 rurale de Tocky Gare",
+        "arrivee": "Communaut\u00e9 rurale de Koussan",
+        "distance": "373.23",
+        "type": "maritime",
+        "statut": "termine",
+        "etat": "ferme",
+        "date_depart": "2010-05-23",
+        "date_arrivee": "2006-06-19",
+        "cargo_plein": "poids",
+        "produits": [
+            {
+                "code": "Ut dolores ea offici",
+                "poids": "96",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Ipsam aut ut molesti",
+                    "prenom": "Rem veniam nesciunt",
+                    "telephone": "+1 (616) 203-6245",
+                    "adresse": "Voluptatem providen"
+                },
+                "destinataire": {
+                    "nom": "Dolorem ea ut omnis ",
+                    "prenom": "Aut fuga Et earum r",
+                    "telephone": "+1 (421) 817-6991",
+                    "adresse": "Totam sunt ex expedi"
+                }
+            },
+            {
+                "code": "Ut dolore modi aut s",
+                "poids": "5",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Reprehenderit repell",
+                    "prenom": "Nulla excepteur iste",
+                    "telephone": "+1 (841) 166-2646",
+                    "adresse": "Velit animi rem rer"
+                },
+                "destinataire": {
+                    "nom": "Cupidatat praesentiu",
+                    "prenom": "Sed ut non et nihil ",
+                    "telephone": "+1 (635) 128-4455",
+                    "adresse": "Reiciendis itaque eo"
+                }
+            },
+            {
+                "code": "",
+                "poids": "",
+                "type_produit": "",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": ""
+                },
+                "destinataire": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": ""
+                }
+            },
+            {
+                "code": "Obcaecati quia illum",
+                "poids": "93",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Rerum voluptatem Lo",
+                    "prenom": "Qui dolor eveniet e",
+                    "telephone": "+1 (681) 886-2068",
+                    "adresse": "Voluptatem Natus ul"
+                },
+                "destinataire": {
+                    "nom": "Recusandae Qui volu",
+                    "prenom": "Odio et repudiandae ",
+                    "telephone": "+1 (688) 117-8625",
+                    "adresse": "Mollit deleniti qui "
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN364",
+        "poids_max": "49",
+        "prix": "44",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "Mauritanie",
+        "distance": "380.74",
+        "type": "aerienne",
+        "statut": "en-cours",
+        "etat": "ouvert",
+        "date_depart": "2006-12-25",
+        "date_arrivee": "2022-12-11",
+        "cargo_plein": "nombre",
+        "produits": [
+            {
+                "code": "Dolor a corporis acc",
+                "poids": "86",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "At deleniti laborum ",
+                    "prenom": "Laudantium esse pe",
+                    "telephone": "+1 (996) 587-5627",
+                    "adresse": "Cupidatat amet dele"
+                },
+                "destinataire": {
+                    "nom": "Nostrum inventore ne",
+                    "prenom": "Fugiat in voluptate",
+                    "telephone": "+1 (994) 801-7611",
+                    "adresse": "Autem ipsum ea adip"
+                }
+            },
+            {
+                "code": "Modi aut suscipit co",
+                "poids": "62",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Voluptates nisi dele",
+                    "prenom": "Laudantium in quis ",
+                    "telephone": "+1 (914) 506-1189",
+                    "adresse": "Eligendi labore ut e"
+                },
+                "destinataire": {
+                    "nom": "Non aut incidunt ad",
+                    "prenom": "Ut in dolore quos qu",
+                    "telephone": "+1 (103) 401-2016",
+                    "adresse": "Dolorem saepe ut adi"
+                }
+            },
+            {
+                "code": "Sint rem proident e",
+                "poids": "69",
+                "type_produit": "materiel",
+                "degre_toxicite": "3",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Sed illum ea in pro",
+                    "prenom": "Voluptatum aliquid q",
+                    "telephone": "+1 (385) 331-9603",
+                    "adresse": "Quo quos vero sit no"
+                },
+                "destinataire": {
+                    "nom": "Voluptates vitae und",
+                    "prenom": "Nostrum debitis recu",
+                    "telephone": "+1 (942) 176-6031",
+                    "adresse": "Perspiciatis volupt"
+                }
+            },
+            {
+                "code": "Ipsum totam qui dolo",
+                "poids": "100",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "3",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Qui sit provident r",
+                    "prenom": "Aliquip modi est iu",
+                    "telephone": "+1 (617) 416-6549",
+                    "adresse": "Iusto molestias quis"
+                },
+                "destinataire": {
+                    "nom": "At accusantium sit d",
+                    "prenom": "Ut incididunt adipis",
+                    "telephone": "+1 (599) 861-9948",
+                    "adresse": "Est est voluptates "
+                }
+            },
+            {
+                "code": "Necessitatibus harum",
+                "poids": "49",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "3",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Aperiam ad dolorum l",
+                    "prenom": "Laborum totam quia e",
+                    "telephone": "+1 (573) 354-6636",
+                    "adresse": "Adipisicing deleniti"
+                },
+                "destinataire": {
+                    "nom": "Ex architecto illum",
+                    "prenom": "Ut nulla architecto ",
+                    "telephone": "+1 (113) 488-1383",
+                    "adresse": "Recusandae Voluptat"
+                }
+            },
+            {
+                "code": "Dolores labore accus",
+                "poids": "53",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "3",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Proident quia ea ve",
+                    "prenom": "Fugit autem iusto a",
+                    "telephone": "+1 (233) 483-2945",
+                    "adresse": "Dicta quasi occaecat"
+                },
+                "destinataire": {
+                    "nom": "Eum cillum ullamco m",
+                    "prenom": "Unde expedita numqua",
+                    "telephone": "+1 (935) 391-9738",
+                    "adresse": "Quo iure esse aliqua"
+                }
+            },
+            {
+                "code": "Similique ex aperiam",
+                "poids": "12",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Praesentium ratione ",
+                    "prenom": "Quod quibusdam quide",
+                    "telephone": "+1 (956) 472-8693",
+                    "adresse": "Inventore quasi rati"
+                },
+                "destinataire": {
+                    "nom": "Reprehenderit labor",
+                    "prenom": "Rem labore sapiente ",
+                    "telephone": "+1 (423) 409-2328",
+                    "adresse": "Accusantium enim eaq"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN511",
+        "poids_max": "23",
+        "prix": "29",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "206.62",
+        "type": "aerienne",
+        "statut": "en-cours",
+        "etat": "ferme",
+        "date_depart": "1991-04-01",
+        "date_arrivee": "1982-08-24",
+        "cargo_plein": "nombre",
+        "produits": [
+            {
+                "code": "Recusandae Non blan",
+                "poids": "32",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Unde eu eveniet mag",
+                    "prenom": "Fuga Animi placeat",
+                    "telephone": "+1 (822) 532-1653",
+                    "adresse": "Exercitation dolores"
+                },
+                "destinataire": {
+                    "nom": "Doloremque sit iste ",
+                    "prenom": "Molestiae totam quis",
+                    "telephone": "+1 (301) 263-2097",
+                    "adresse": "Tenetur ipsum error"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN774",
+        "poids_max": "28",
+        "prix": "56",
+        "depart": "Guin\u00e9e",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "193.15",
+        "type": "aerienne",
+        "statut": "termine",
+        "etat": "ouvert",
+        "date_depart": "2024-01-30",
+        "date_arrivee": "2013-02-26",
+        "cargo_plein": "poids",
+        "produits": [
+            {
+                "code": "",
+                "poids": "",
+                "type_produit": "",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": ""
+                },
+                "destinataire": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": ""
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN839",
+        "poids_max": "88",
+        "prix": "21",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "328.58",
+        "type": "routiere",
+        "statut": "termine",
+        "etat": "ouvert",
+        "date_depart": "2023-12-24",
+        "date_arrivee": "1979-02-23",
+        "cargo_plein": "nombre"
+    },
+    {
+        "numero": "CGN93",
+        "poids_max": "33",
+        "prix": "37",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "Guin\u00e9e-Bissau",
+        "distance": "186.11",
+        "type": "routiere",
+        "statut": "en-attente",
+        "etat": "ouvert",
+        "date_depart": "2013-03-03",
+        "date_arrivee": "1970-02-15",
+        "cargo_plein": "poids"
+    },
+    {
+        "numero": "CGN648",
+        "poids_max": "93",
+        "prix": "6",
+        "depart": "Guin\u00e9e",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "247.29",
+        "type": "maritime",
+        "statut": "termine",
+        "etat": "ferme",
+        "date_depart": "2001-07-05",
+        "date_arrivee": "2015-09-22",
+        "cargo_plein": "nombre"
+    },
+    {
+        "numero": "CGN445",
+        "poids_max": "8",
+        "prix": "65",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "279.35",
+        "type": "aerienne",
+        "statut": "en-cours",
+        "etat": "ferme",
+        "date_depart": "2017-05-01",
+        "date_arrivee": "2021-10-14",
+        "cargo_plein": "nombre"
+    },
+    {
+        "numero": "CGN123",
+        "poids_max": "84",
+        "prix": "55",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "223.11",
+        "type": "maritime",
+        "statut": "en-cours",
+        "etat": "ferme",
+        "date_depart": "1970-07-27",
+        "date_arrivee": "1989-12-04",
+        "cargo_plein": "nombre",
+        "produits": [
+            {
+                "code": "Aliquip in repudiand",
+                "poids": "6",
+                "type_produit": "chimique",
+                "degre_toxicite": "12",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Quas veritatis ut au",
+                    "prenom": "Voluptatem quasi qui",
+                    "telephone": "+1 (725) 159-8761",
+                    "adresse": "Officia aliquip ad o"
+                },
+                "destinataire": {
+                    "nom": "Omnis sint alias vol",
+                    "prenom": "Quia deserunt et sit",
+                    "telephone": "+1 (108) 438-5043",
+                    "adresse": "Nulla exercitation d"
+                }
+            },
+            {
+                "code": "Aliquip in repudiand",
+                "poids": "6",
+                "type_produit": "chimique",
+                "degre_toxicite": "12",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Quas veritatis ut au",
+                    "prenom": "Voluptatem quasi qui",
+                    "telephone": "+1 (725) 159-8761",
+                    "adresse": "Officia aliquip ad o"
+                },
+                "destinataire": {
+                    "nom": "Omnis sint alias vol",
+                    "prenom": "Quia deserunt et sit",
+                    "telephone": "+1 (108) 438-5043",
+                    "adresse": "Nulla exercitation d"
+                }
+            },
+            {
+                "code": "Aliquip in repudiand",
+                "poids": "6",
+                "type_produit": "chimique",
+                "degre_toxicite": "12",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Quas veritatis ut au",
+                    "prenom": "Voluptatem quasi qui",
+                    "telephone": "+1 (725) 159-8761",
+                    "adresse": "Officia aliquip ad o"
+                },
+                "destinataire": {
+                    "nom": "Omnis sint alias vol",
+                    "prenom": "Quia deserunt et sit",
+                    "telephone": "+1 (108) 438-5043",
+                    "adresse": "Nulla exercitation d"
+                }
+            },
+            {
+                "code": "Aliquip in repudiand",
+                "poids": "6",
+                "type_produit": "chimique",
+                "degre_toxicite": "12",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Quas veritatis ut au",
+                    "prenom": "Voluptatem quasi qui",
+                    "telephone": "+1 (725) 159-8761",
+                    "adresse": "Officia aliquip ad o"
+                },
+                "destinataire": {
+                    "nom": "Omnis sint alias vol",
+                    "prenom": "Quia deserunt et sit",
+                    "telephone": "+1 (108) 438-5043",
+                    "adresse": "Nulla exercitation d"
+                }
+            },
+            {
+                "code": "Aliquip in repudiand",
+                "poids": "6",
+                "type_produit": "chimique",
+                "degre_toxicite": "12",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Quas veritatis ut au",
+                    "prenom": "Voluptatem quasi qui",
+                    "telephone": "+1 (725) 159-8761",
+                    "adresse": "Officia aliquip ad o"
+                },
+                "destinataire": {
+                    "nom": "Omnis sint alias vol",
+                    "prenom": "Quia deserunt et sit",
+                    "telephone": "+1 (108) 438-5043",
+                    "adresse": "Nulla exercitation d"
+                }
+            },
+            {
+                "code": "Aliquip in repudiand",
+                "poids": "6",
+                "type_produit": "chimique",
+                "degre_toxicite": "12",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Quas veritatis ut au",
+                    "prenom": "Voluptatem quasi qui",
+                    "telephone": "+1 (725) 159-8761",
+                    "adresse": "Officia aliquip ad o"
+                },
+                "destinataire": {
+                    "nom": "Omnis sint alias vol",
+                    "prenom": "Quia deserunt et sit",
+                    "telephone": "+1 (108) 438-5043",
+                    "adresse": "Nulla exercitation d"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN359",
+        "poids_max": "73",
+        "prix": "85",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "187.51",
+        "type": "maritime",
+        "statut": "en-attente",
+        "etat": "ouvert",
+        "date_depart": "1987-10-29",
+        "date_arrivee": "1973-09-29",
+        "cargo_plein": "nombre"
+    },
+    {
+        "numero": "CGN555",
+        "poids_max": "85",
+        "prix": "31",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "Mali",
+        "distance": "145.84",
+        "type": "maritime",
+        "statut": "termine",
+        "etat": "ferme",
+        "date_depart": "2024-05-28",
+        "date_arrivee": "2024-05-31",
+        "cargo_plein": "nombre"
+    },
+    {
+        "numero": "CGN348",
+        "poids_max": "85",
+        "prix": "37",
+        "depart": "35.460669951495305, -459.84375000000006",
+        "arrivee": "8.407168163601076, -589.2187500000001",
+        "distance": "12813.68",
+        "type": "aerienne",
+        "statut": "en-attente",
+        "etat": "ouvert",
+        "date_depart": "2010-06-18",
+        "date_arrivee": "2022-07-09",
+        "cargo_plein": "poids"
+    },
+    {
+        "numero": "CGN97",
+        "poids_max": "26",
+        "prix": "43",
+        "depart": "Guin\u00e9e",
+        "arrivee": "S\u00e9n\u00e9gal",
+        "distance": "166.69",
+        "type": "maritime",
+        "statut": "en-cours",
+        "etat": "ouvert",
+        "date_depart": "1989-10-31",
+        "date_arrivee": "2024-05-28",
+        "cargo_plein": "poids",
+        "produits": [
+            {
+                "code": "",
+                "poids": "",
+                "type_produit": "",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": ""
+                },
+                "destinataire": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": ""
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN693",
+        "poids_max": "51",
+        "prix": "37",
+        "depart": "Niger",
+        "arrivee": "Niger",
+        "distance": "1.13",
+        "type": "routiere",
+        "statut": "termine",
+        "etat": "ferme",
+        "date_depart": "2002-09-29",
+        "date_arrivee": "2017-09-02",
+        "cargo_plein": "nombre"
+    },
+    {
+        "numero": "CGN205",
+        "poids_max": "73",
+        "prix": "4242",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "Guin\u00e9e",
+        "distance": "151.91",
+        "type": "maritime",
+        "statut": "en-attente",
+        "etat": "ferme",
+        "date_depart": "2019-05-07",
+        "date_arrivee": "2034-07-03",
+        "cargo_plein": "nombre",
+        "produits": [
+            {
+                "code": "Dolorem exercitation",
+                "poids": "45",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Saepe incidunt qui ",
+                    "prenom": "Quibusdam suscipit e",
+                    "telephone": "+1 (564) 461-2286",
+                    "adresse": "Nesciunt est laboru"
+                },
+                "destinataire": {
+                    "nom": "Excepturi eum vel si",
+                    "prenom": "Eveniet eos et esse",
+                    "telephone": "+1 (282) 331-2661",
+                    "adresse": "Omnis ullamco et sun"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN99",
+        "poids_max": "39",
+        "prix": "9",
+        "depart": "S\u00e9n\u00e9gal",
+        "arrivee": "Guin\u00e9e",
+        "distance": "180.82",
+        "type": "routiere",
+        "statut": "en-attente",
+        "etat": "ouvert",
+        "date_depart": "2024-05-31",
+        "date_arrivee": "2024-06-08",
+        "cargo_plein": "nombre",
+        "produits": [
+            {
+                "code": "Eius sit voluptates",
+                "poids": "64",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "",
+                "client": {
+                    "nom": "Quibusdam repellendu",
+                    "prenom": "Consequatur Odit ut",
+                    "telephone": "+1 (419) 837-4352",
+                    "adresse": "Magni natus temporib"
+                },
+                "destinataire": {
+                    "nom": "Voluptas in eum aut ",
+                    "prenom": "Veniam quasi recusa",
+                    "telephone": "+1 (652) 148-3714",
+                    "adresse": "Dolores saepe eum eu"
+                }
+            },
+            {
+                "code": "Earum doloremque do ",
+                "poids": "72",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Dicta fuga Qui poss",
+                    "prenom": "Quaerat voluptatem ",
+                    "telephone": "+1 (823) 581-9476",
+                    "adresse": "Sit magni enim ad c"
+                },
+                "destinataire": {
+                    "nom": "Ea et est quia maior",
+                    "prenom": "Dolore nobis Nam qui",
+                    "telephone": "+1 (145) 727-6157",
+                    "adresse": "Maiores ea omnis qui"
+                }
+            },
+            {
+                "code": "Cupiditate sequi hic",
+                "poids": "64",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "",
+                "client": {
+                    "nom": "Quo ut a ipsam ad vo",
+                    "prenom": "Illo ipsam culpa au",
+                    "telephone": "+1 (947) 336-3694",
+                    "adresse": "Reiciendis deserunt "
+                },
+                "destinataire": {
+                    "nom": "Repellendus Qui ani",
+                    "prenom": "Sed incidunt aute a",
+                    "telephone": "+1 (979) 191-6525",
+                    "adresse": "Consequuntur dolor c"
+                }
+            }
+        ]
+    }
+]

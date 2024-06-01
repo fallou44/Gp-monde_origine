@@ -1,0 +1,48 @@
+{
+    "cargaisons": [
+      {
+        "id": 1,
+        "type": "Aerienne",
+        "distance": 1500,
+        "lieuDepart": "Paris",
+        "lieuArrivee": "New York",
+        "statut": "ouvert",
+        "etat": "pas encore expédié",
+        "destinataireNumero": "+123456789",
+        "destinataireNom": "John Doe",
+        "produits": [
+          {
+            "type": "Alimentaire",
+            "libelle": "Pommes",
+            "poids": 100
+          },
+          {
+            "type": "Chimique",
+            "libelle": "Acide",
+            "poids": 50,
+            "degreToxicite": 5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "Maritime",
+        "distance": 8000,
+        "lieuDepart": "Shanghai",
+        "lieuArrivee": "Los Angeles",
+        "statut": "fermé",
+        "etat": "en cours",
+        "destinataireNumero": "+987654321",
+        "destinataireNom": "Jane Smith",
+        "produits": [
+          {
+            "type": "Materiel",
+            "subtype": "Fragile",
+            "libelle": "Vases en porcelaine",
+            "poids": 200
+          }
+        ]
+      }
+    ]
+  }
+  
