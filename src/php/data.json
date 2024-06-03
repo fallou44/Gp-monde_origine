@@ -3,12 +3,12 @@
         "numero": "CGN418",
         "poids_max": "30",
         "prix": "54",
-        "depart": "Communaut\u00e9 rurale de Tocky Gare",
-        "arrivee": "Communaut\u00e9 rurale de Koussan",
+        "depart": "Tocky Gare",
+        "arrivee": "Koussan",
         "distance": "373.23",
         "type": "maritime",
-        "statut": "termine",
-        "etat": "ferme",
+        "statut": "Termin\u00e9",
+        "etat": "ouvert",
         "date_depart": "2010-05-23",
         "date_arrivee": "2006-06-19",
         "cargo_plein": "poids",
@@ -19,7 +19,7 @@
                 "type_produit": "materiel",
                 "degre_toxicite": "",
                 "type_materiel": "cassable",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Ipsam aut ut molesti",
                     "prenom": "Rem veniam nesciunt",
@@ -39,7 +39,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Reprehenderit repell",
                     "prenom": "Nulla excepteur iste",
@@ -59,7 +59,7 @@
                 "type_produit": "",
                 "degre_toxicite": "",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "",
                     "prenom": "",
@@ -79,7 +79,7 @@
                 "type_produit": "materiel",
                 "degre_toxicite": "",
                 "type_materiel": "cassable",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Rerum voluptatem Lo",
                     "prenom": "Qui dolor eveniet e",
@@ -103,8 +103,8 @@
         "arrivee": "Mauritanie",
         "distance": "380.74",
         "type": "aerienne",
-        "statut": "en-cours",
-        "etat": "ouvert",
+        "statut": "Perdu",
+        "etat": "ferme",
         "date_depart": "2006-12-25",
         "date_arrivee": "2022-12-11",
         "cargo_plein": "nombre",
@@ -115,7 +115,7 @@
                 "type_produit": "alimentaire",
                 "degre_toxicite": "",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "At deleniti laborum ",
                     "prenom": "Laudantium esse pe",
@@ -135,7 +135,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Voluptates nisi dele",
                     "prenom": "Laudantium in quis ",
@@ -155,7 +155,7 @@
                 "type_produit": "materiel",
                 "degre_toxicite": "3",
                 "type_materiel": "cassable",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Sed illum ea in pro",
                     "prenom": "Voluptatum aliquid q",
@@ -175,7 +175,7 @@
                 "type_produit": "alimentaire",
                 "degre_toxicite": "3",
                 "type_materiel": "cassable",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Qui sit provident r",
                     "prenom": "Aliquip modi est iu",
@@ -195,7 +195,7 @@
                 "type_produit": "alimentaire",
                 "degre_toxicite": "3",
                 "type_materiel": "cassable",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Aperiam ad dolorum l",
                     "prenom": "Laborum totam quia e",
@@ -215,7 +215,7 @@
                 "type_produit": "alimentaire",
                 "degre_toxicite": "3",
                 "type_materiel": "cassable",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Proident quia ea ve",
                     "prenom": "Fugit autem iusto a",
@@ -235,7 +235,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Praesentium ratione ",
                     "prenom": "Quod quibusdam quide",
@@ -259,7 +259,7 @@
         "arrivee": "S\u00e9n\u00e9gal",
         "distance": "206.62",
         "type": "aerienne",
-        "statut": "en-cours",
+        "statut": "Termin\u00e9",
         "etat": "ferme",
         "date_depart": "1991-04-01",
         "date_arrivee": "1982-08-24",
@@ -271,7 +271,7 @@
                 "type_produit": "alimentaire",
                 "degre_toxicite": "",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Unde eu eveniet mag",
                     "prenom": "Fuga Animi placeat",
@@ -295,7 +295,7 @@
         "arrivee": "S\u00e9n\u00e9gal",
         "distance": "193.15",
         "type": "aerienne",
-        "statut": "termine",
+        "statut": "Perdu",
         "etat": "ouvert",
         "date_depart": "2024-01-30",
         "date_arrivee": "2013-02-26",
@@ -307,7 +307,7 @@
                 "type_produit": "",
                 "degre_toxicite": "",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "",
                     "prenom": "",
@@ -345,11 +345,12 @@
         "arrivee": "Guin\u00e9e-Bissau",
         "distance": "186.11",
         "type": "routiere",
-        "statut": "en-attente",
+        "statut": "Perdu",
         "etat": "ouvert",
         "date_depart": "2013-03-03",
         "date_arrivee": "1970-02-15",
-        "cargo_plein": "poids"
+        "cargo_plein": "poids",
+        "produits": null
     },
     {
         "numero": "CGN648",
@@ -387,7 +388,7 @@
         "arrivee": "S\u00e9n\u00e9gal",
         "distance": "223.11",
         "type": "maritime",
-        "statut": "en-cours",
+        "statut": "Perdu",
         "etat": "ferme",
         "date_depart": "1970-07-27",
         "date_arrivee": "1989-12-04",
@@ -399,7 +400,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "12",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Quas veritatis ut au",
                     "prenom": "Voluptatem quasi qui",
@@ -419,7 +420,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "12",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Quas veritatis ut au",
                     "prenom": "Voluptatem quasi qui",
@@ -439,7 +440,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "12",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Quas veritatis ut au",
                     "prenom": "Voluptatem quasi qui",
@@ -459,7 +460,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "12",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Quas veritatis ut au",
                     "prenom": "Voluptatem quasi qui",
@@ -479,7 +480,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "12",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Quas veritatis ut au",
                     "prenom": "Voluptatem quasi qui",
@@ -499,7 +500,7 @@
                 "type_produit": "chimique",
                 "degre_toxicite": "12",
                 "type_materiel": "",
-                "etat": "",
+                "etat": "Perdu",
                 "client": {
                     "nom": "Quas veritatis ut au",
                     "prenom": "Voluptatem quasi qui",
@@ -523,11 +524,12 @@
         "arrivee": "S\u00e9n\u00e9gal",
         "distance": "187.51",
         "type": "maritime",
-        "statut": "en-attente",
+        "statut": "Perdu",
         "etat": "ouvert",
         "date_depart": "1987-10-29",
         "date_arrivee": "1973-09-29",
-        "cargo_plein": "nombre"
+        "cargo_plein": "nombre",
+        "produits": null
     },
     {
         "numero": "CGN555",
@@ -537,25 +539,27 @@
         "arrivee": "Mali",
         "distance": "145.84",
         "type": "maritime",
-        "statut": "termine",
+        "statut": "Perdu",
         "etat": "ferme",
         "date_depart": "2024-05-28",
         "date_arrivee": "2024-05-31",
-        "cargo_plein": "nombre"
+        "cargo_plein": "nombre",
+        "produits": null
     },
     {
         "numero": "CGN348",
         "poids_max": "85",
         "prix": "37",
-        "depart": "35.460669951495305, -459.84375000000006",
-        "arrivee": "8.407168163601076, -589.2187500000001",
+        "depart": "Maoritanie",
+        "arrivee": "Senegal",
         "distance": "12813.68",
         "type": "aerienne",
-        "statut": "en-attente",
+        "statut": "Perdu",
         "etat": "ouvert",
         "date_depart": "2010-06-18",
         "date_arrivee": "2022-07-09",
-        "cargo_plein": "poids"
+        "cargo_plein": "poids",
+        "produits": null
     },
     {
         "numero": "CGN97",
@@ -566,7 +570,7 @@
         "distance": "166.69",
         "type": "maritime",
         "statut": "en-cours",
-        "etat": "ouvert",
+        "etat": "ferme",
         "date_depart": "1989-10-31",
         "date_arrivee": "2024-05-28",
         "cargo_plein": "poids",
@@ -615,7 +619,7 @@
         "arrivee": "Guin\u00e9e",
         "distance": "151.91",
         "type": "maritime",
-        "statut": "en-attente",
+        "statut": "en-cours",
         "etat": "ferme",
         "date_depart": "2019-05-07",
         "date_arrivee": "2034-07-03",
@@ -651,8 +655,8 @@
         "arrivee": "Guin\u00e9e",
         "distance": "180.82",
         "type": "routiere",
-        "statut": "en-attente",
-        "etat": "ouvert",
+        "statut": "en-cours",
+        "etat": "ferme",
         "date_depart": "2024-05-31",
         "date_arrivee": "2024-06-08",
         "cargo_plein": "nombre",
@@ -716,7 +720,42 @@
                     "telephone": "+1 (979) 191-6525",
                     "adresse": "Consequuntur dolor c"
                 }
+            },
+            {
+                "code": "Delectus saepe vel ",
+                "poids": "1",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Hic aliquid non volu",
+                    "prenom": "Est cillum soluta do",
+                    "telephone": "+1 (684) 913-5103",
+                    "adresse": "Delectus quia volup"
+                },
+                "destinataire": {
+                    "nom": "Proident illum cil",
+                    "prenom": "Sit quis nisi ut ea ",
+                    "telephone": "+1 (763) 728-8969",
+                    "adresse": "Quas tenetur corpori"
+                }
             }
         ]
+    },
+    {
+        "numero": "CGN691",
+        "poids_max": "5",
+        "prix": "1",
+        "depart": "Guin\u00e9e-Bissau",
+        "arrivee": "Mali",
+        "distance": "363.86",
+        "type": "maritime",
+        "statut": "Termin\u00e9",
+        "etat": "ferme",
+        "date_depart": "2024-06-01",
+        "date_arrivee": "2024-06-02",
+        "cargo_plein": "poids",
+        "produits": null
     }
 ]

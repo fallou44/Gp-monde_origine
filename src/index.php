@@ -99,6 +99,14 @@
             font-size: 0.875rem;
             display: none;
         }
+
+
+
+        .max-w-2xl {
+    max-width: 772px ;
+}
+
+
     </style>
 </head>
 
@@ -123,7 +131,7 @@
                     </span>
                 </p>
             </a>
-            <ul class="flex items-center space-x-4 text-sm font-semibold">
+            <!-- <ul class="flex items-center space-x-4 text-sm font-semibold">
                 <li><a href="#" class="px-2 xl:px-4 py-2 text-gray-800 rounded-md hover:bg-gray-200">My Account</a></li>
                 <li class="relative" x-data="{ open: false }">
                     <a x-on:click="open = !open" x-on:click.outside="open = false" href="#"
@@ -171,8 +179,8 @@
                     </ul>
                 </li>
                 <li><a href="#" class="px-2 xl:px-4 py-2 text-gray-600 rounded-md hover:bg-gray-200">Cargaison En cours </a></li>
-                <li><a href="#" class="px-2 xl:px-4 py-2 text-gray-600 rounded-md hover:bg-gray-200">Cargaison En terminé</a></li>
-            </ul>
+                <li><a href="#" class="px-2 xl:px-4 py-2 text-gray-600 rounded-md hover:bg-gray-200">Cargaison terminé</a></li>
+            </ul> -->
             <ul class="flex space-x-2 xl:space-x-4 text-sm font-semibold">
                 <li>
                     <a href="#">
@@ -549,7 +557,7 @@
         </div>
         <span class="error-message" id="error-cargo-plein">Veuillez sélectionner une option pour la cargaison pleine.</span>
     </div> -->
-        <div id="map" class="col-span-2"></div>
+        <div id="map" class="col-span-2"></div>updateEtat
         <div class="col-span-2 flex items-center justify-between">
             <button id="btn-add-cargo" class="bg-teal-200 hover:bg-teal-600 text-teal-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">Ajouter la cargaison</button>
         </div>
@@ -684,6 +692,7 @@ function closeModal() {
                                     <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="destinataire-adresse" type="text" placeholder="Entrez l'adresse du destinataire">
                                     <span class="error-message" id="error-destinataire-adresse">Veuillez entrer une adresse de destinataire valide.</span>
                                 </div>
+                                
                                 <div class="col-span-2 flex items-center justify-between">
                                     <button id="btn-add-product" class="bg-teal-200 hover:bg-teal-600 text-teal-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">Ajouter le produit</button>
                                 </div>
@@ -696,8 +705,8 @@ function closeModal() {
     </div>
 </div>
 
-
-            <!-- Start Third Row -->
+    <!-- Start Third Row -->
+            
      <!-- Table with static cargo data -->
  
      <div class="grid grid-cols-1 md:grid-cols-5 items-start px-4 xl:p-0 gap-y-4 md:gap-6 mt-6">
@@ -712,18 +721,18 @@ function closeModal() {
         <table class="min-w-full bg-white">
         <thead>
     <tr>
-    <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Numéro</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Poids Max (kg)</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Prix Total (€)</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Départ</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Arrivée</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Distance (km)</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Statut</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">État</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date de Départ</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date d'Arrivée</th>
-            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Action</th>
+    <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider text-center">Numéro</th>
+            <!-- <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Poids Max (kg)</th>
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Prix Total (€)</th> -->
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Départ</th>
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Arrivée</th>
+            <!-- <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Distance (km)</th> -->
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Statut</th>
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">État</th>
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Date de Départ</th>
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Date d'Arrivée</th>
+            <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Action</th>
         </tr>
     </thead>
     <tbody id="cargo-table-body" class="divide-y divide-gray-200">
@@ -739,11 +748,15 @@ function closeModal() {
 
         <!-- Modal pour les détails de la cargaison -->
 <div id="detail-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
-    <div class="bg-white p-4 rounded-lg w-3/4 max-w-2xl">
+    <div class="bg-white p-4 rounded-lg w-3/4 w-2xl">
+        <div class="mt-4 flex justify-end">
+            <button onclick="closeDetailModal()" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-700">X</button>
+        </div>
         <div class="mb-4">
             <h2 id="modal-detail-title" class="text-xl font-bold mb-2"></h2>
             <div id="cargo-details" class="p-4 bg-gray-100 rounded-lg"></div>
         </div>
+        
         <table class="min-w-full divide-y divide-gray-200">
             <thead class="bg-gray-50">
                 <tr>
@@ -758,9 +771,9 @@ function closeModal() {
                 <!-- Les produits seront insérés ici -->
             </tbody>
         </table>
-        <div class="mt-4 flex justify-end">
-            <button onclick="closeDetailModal()" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-700">Fermer</button>
-        </div>
+        <div id="products-pagination" class="flex justify-end mt-4">
+                    <!-- La pagination sera insérée ici -->
+                </div>
     </div>
 </div>
 
@@ -802,70 +815,7 @@ function closeModal() {
       const openModalBtn = document.getElementById('open-cargo-modal');
         const cargoModal = document.getElementById('cargo-modal');
         const cargoFormContainer = document.getElementById('cargo-form-container');
-
-        // Créer le formulaire d'ajout de cargaison
-        // function createCargoForm() {
-        //     const form = document.createElement('form');
-        //     form.innerHTML = `
-        //         <div>
-        //             <label for="poids-max">Poids maximum</label>
-        //             <input id="poids-max" type="number" placeholder="Entrez le poids maximum">
-        //             <span class="error-message" id="error-poids-max">Veuillez entrer un poids maximum valide.</span>
-        //         </div>
-        //         <div>
-        //             <label for="prix">Prix total</label>
-        //             <input id="prix" type="number" placeholder="Entrez le prix total">
-        //             <span class="error-message" id="error-prix">Veuillez entrer un prix total valide.</span>
-        //         </div>
-        //         <div>
-        //             <label for="depart">Lieu de départ</label>
-        //             <input id="depart" type="text" placeholder="Sélectionnez sur la carte" readonly>
-        //             <span class="error-message" id="error-depart">Veuillez sélectionner un lieu de départ.</span>
-        //         </div>
-        //         <div>
-        //             <label for="arrivee">Lieu d'arrivée</label>
-        //             <input id="arrivee" type="text" placeholder="Sélectionnez sur la carte" readonly>
-        //             <span class="error-message" id="error-arrivee">Veuillez sélectionner un lieu d'arrivée.</span>
-        //         </div>
-        //         <div>
-        //             <label for="distance">Distance (km)</label>
-        //             <input id="distance" type="number" placeholder="Calculée automatiquement" readonly>
-        //             <span class="error-message" id="error-distance">La distance doit être calculée automatiquement.</span>
-        //         </div>
-        //         <div>
-        //             <label for="type">Type de cargaison</label>
-        //             <select id="type">
-        //                 <option value="">Sélectionnez un type</option>
-        //                 <option value="maritime">Maritime</option>
-        //                 <option value="aerienne">Aérienne</option>
-        //                 <option value="routiere">Routière</option>
-        //             </select>
-        //             <span class="error-message" id="error-type">Veuillez sélectionner un type de cargaison.</span>
-        //         </div>
-        //         <div>
-        //             <label for="statut">État d'avancement</label>
-        //             <select id="statut">
-        //                 <option value="">Sélectionnez un état</option>
-        //                 <option value="en-attente">En attente</option>
-        //                 <option value="en-cours">En cours</option>
-        //                 <option value="termine">Terminé</option>
-        //             </select>
-        //             <span class="error-message" id="error-statut">Veuillez sélectionner un état d'avancement.</span>
-        //         </div>
-        //         <div>
-        //             <label for="etat">État global</label>
-        //             <select id="etat">
-        //                 <option value="">Sélectionnez un état</option>
-        //                 <option value="ouvert">Ouvert</option>
-        //                 <option value="ferme">Fermé</option>
-        //             </select>
-        //             <span class="error-message" id="error-etat">Veuillez sélectionner un état global.</span>
-        //         </div>
-        //         <button id="btn-add-cargo" type="button">Ajouter la cargaison</button>
-        //     `;
-        //     cargoFormContainer.appendChild(form);
-        // }
-
+        
         // Ouvrir le modal
         openModalBtn.addEventListener('click', () => {
             cargoModal.classList.remove('hidden');
@@ -1029,31 +979,107 @@ function closeModal() {
     cargos.forEach(cargo => {
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.numero}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.poids_max}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.prix}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.depart}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.arrivee}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.distance}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.type}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.statut}</td>
-            <td class="py-2 px-4 text-sm">
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">${cargo.numero}</td>
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">${cargo.depart}</td>
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">${cargo.arrivee}</td>
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">${cargo.type}</td>
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">${cargo.statut}</td>
+            <td class="py-2 px-4 text-sm text-center">
                 <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${cargo.etat === 'ouvert' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}">${cargo.etat}</span>
             </td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.date_depart}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">${cargo.date_arrivee}</td>
-            <td class="py-2 px-4 text-sm text-gray-500">
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">${cargo.date_depart}</td>
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">${cargo.date_arrivee}</td>
+            <td class="py-2 px-4 text-sm text-gray-500 text-center">
                 <button class="text-fleat-500 hover:text-fleat-700" onclick="openModalProduct('${cargo.numero}')">
                     <i class="fas fa-plus-circle"></i>
                 </button>
                 <button class="text-fleat-500 hover:text-fleat-700 ml-2" onclick="afficherDetail('${cargo.numero}')">
                     <i class="fas fa-info-circle"></i>
                 </button>
+                <button class="items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-400" onclick="mettreEnCours('${cargo.numero}')">
+                    En cours
+                </button>
+                <button class="items-center px-2 py-0.5 rounded text-xs font-medium hover:text-fleat-700 ml-2 bg-red-500 text-white bg-red-100 text-red-800" onclick="marquerPerdu('${cargo.numero}')">
+                    Perdu
+                </button>
+                <button class="items-center px-2 py-0.5 rounded text-xs font-medium ml-2 bg-green-200 text-green-800" onclick="marquerArrive('${cargo.numero}')">
+                    Arrivé
+                </button>
+                <button class="items-center px-2 py-0.5 rounded text-xs font-medium ml-2 bg-green-200 text-green-800" onclick="marquerEtatOuvert('${cargo.numero}')">
+                    Ouvert
+                </button>
+                <button class="items-center px-2 py-0.5 rounded text-xs font-medium ml-2 bg-red-200 text-red-800" onclick="marquerEtatFermer('${cargo.numero}')">
+                    Fermé
+                </button>
             </td>
         `;
         tableBody.appendChild(row);
     });
 }
+
+function marquerPerdu(numero) {
+    updateStatus(numero, 'Perdu');
+}
+
+function marquerArrive(numero) {
+    updateStatus(numero, 'Arrivé');
+}
+
+function mettreEnCours(numero) {
+    updateStatus(numero, 'en-cours');
+}
+
+function marquerEtatOuvert(numero) {
+    updateEtat(numero, 'ouvert');
+}
+
+function marquerEtatFermer(numero) {
+    updateEtat(numero, 'ferme');
+}
+
+function updateStatus(numero, statut) {
+    const payload = {
+        numero: numero,
+        statut: statut
+    };
+
+    fetch('php/cargo.php', {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+        loadCargos(); // Mettre à jour la liste des cargaisons
+    })
+    .catch(error => console.log('Error:', error));
+}
+
+function updateEtat(numero, etat) {
+    const payload = {
+        numero: numero,
+        etat: etat
+    };
+
+    fetch('php/cargo.php', {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+    })
+    .then(response => response.json())
+    .then(data => {
+        alert(data.message);
+        loadCargos(); // Mettre à jour la liste des cargaisons
+    })
+    .catch(error => console.log('Error:', error));
+}
+
+
 let selectedCargoId = null;
 
 // Fonction pour ouvrir le modal et enregistrer l'ID de la cargaison sélectionnée
@@ -1135,31 +1161,61 @@ function closeModal() {
     document.getElementById('produit-modal').classList.add('hidden');
 }
 
+// let selectedCargoId = null;
+let productsPageSize = 3; // Nombre de produits par page
+let currentProductsPage = 1; // Page actuelle pour les produits
 
-
+// Fonction pour afficher les détails de la cargaison avec pagination des produits
 function afficherDetail(cargoId) {
     const cargo = cargos.find(c => c.numero === cargoId);
     if (!cargo) return;
 
+    selectedCargoId = cargoId;
     document.getElementById('modal-detail-title').innerText = `Détails de la cargaison numéro : ${cargoId}`;
     document.getElementById('cargo-details').innerHTML = `
-        <div class="card">
-            <h3 class="text-lg font-bold">Informations sur la cargaison</h3>
+    <div class="bg-white shadow-md rounded-lg p-6">
+    <h3 class="text-lg font-bold mb-4">Informations sur la cargaison</h3>
+    <div class="flex justify-between">
+        <div class="w-1/2">
             <p><strong>Numéro:</strong> ${cargo.numero}</p>
             <p><strong>Poids max:</strong> ${cargo.poids_max}</p>
             <p><strong>Prix:</strong> ${cargo.prix}</p>
             <p><strong>Départ:</strong> ${cargo.depart}</p>
             <p><strong>Arrivée:</strong> ${cargo.arrivee}</p>
             <p><strong>Distance:</strong> ${cargo.distance}</p>
+        </div>
+        <div class="w-1/2 text-right">
             <p><strong>Type:</strong> ${cargo.type}</p>
             <p><strong>Statut:</strong> ${cargo.statut}</p>
             <p><strong>État:</strong> ${cargo.etat}</p>
             <p><strong>Date de départ:</strong> ${cargo.date_depart}</p>
             <p><strong>Date d'arrivée:</strong> ${cargo.date_arrivee}</p>
         </div>
+    </div>
+</div>
+
     `;
 
-    const products = cargo.produits || [];
+    updateProductsPagination();
+    document.getElementById('detail-modal').classList.remove('hidden');
+}
+
+// Fonction pour mettre à jour l'affichage des produits avec pagination
+function updateProductsPagination() {
+    const cargo = cargos.find(c => c.numero === selectedCargoId);
+    if (!cargo || !cargo.produits) return;
+
+    const products = cargo.produits;
+    const start = (currentProductsPage - 1) * productsPageSize;
+    const end = start + productsPageSize;
+    const paginatedProducts = products.slice(start, end);
+
+    displayProducts(paginatedProducts);
+    displayProductsPagination(products.length);
+}
+
+// Fonction pour afficher les produits paginés
+function displayProducts(products) {
     const productTableBody = document.getElementById('product-table-body');
     productTableBody.innerHTML = ''; // Effacer le contenu existant du tableau
     products.forEach(product => {
@@ -1175,17 +1231,43 @@ function afficherDetail(cargoId) {
                         <i class="fas fa-ellipsis-v"></i>
                     </button>
                     <div id="dropdown-${product.code}" class="hidden absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg">
-                        <a href="#" onclick="marquerArrive('${cargoId}', '${product.code}')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Arrivé</a>
-                        <a href="#" onclick="marquerPerdu('${cargoId}', '${product.code}')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Marquer Perdu</a>
-                        <a href="#" onclick="retirerProduit('${cargoId}', '${product.code}')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Retirer</a>
+                        <a href="#" onclick="marquerArrive('${selectedCargoId}', '${product.code}')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Arrivé</a>
+                        <a href="#" onclick="marquerPerdu('${selectedCargoId}', '${product.code}')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Marquer Perdu</a>
+                        <a href="#" onclick="retirerProduit('${selectedCargoId}', '${product.code}')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Retirer</a>
                     </div>
                 </div>
             </td>
         `;
         productTableBody.appendChild(row);
     });
+}
 
-    document.getElementById('detail-modal').classList.remove('hidden');
+// Fonction pour afficher la pagination des produits
+function displayProductsPagination(totalProducts) {
+    const totalPages = Math.ceil(totalProducts / productsPageSize);
+    const paginationContainer = document.getElementById('products-pagination');
+    paginationContainer.innerHTML = ''; // Effacer la pagination existante
+
+    if (totalPages > 1) {
+        for (let i = 1; i <= totalPages; i++) {
+            const pageLink = document.createElement('button');
+            pageLink.textContent = i;
+            pageLink.classList.add('mx-1', 'px-3', 'py-1', 'bg-gray-200', 'text-gray-800', 'border', 'border-gray-300', 'rounded', 'hover:bg-gray-300', 'focus:outline-none', 'focus:bg-gray-300');
+            if (i === currentProductsPage) {
+                pageLink.classList.add('bg-gray-400', 'font-bold');
+            }
+            pageLink.addEventListener('click', function() {
+                currentProductsPage = i;
+                updateProductsPagination();
+            });
+            paginationContainer.appendChild(pageLink);
+        }
+    }
+}
+
+// Fonction pour fermer le modal de détail
+function closeDetailModal() {
+    document.getElementById('detail-modal').classList.add('hidden');
 }
 
 function toggleDropdown(productCode) {
