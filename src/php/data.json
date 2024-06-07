@@ -7,10 +7,10 @@
         "arrivee": "Koussan",
         "distance": "373.23",
         "type": "maritime",
-        "statut": "Termin\u00e9",
-        "etat": "ouvert",
+        "statut": "Perdu",
+        "etat": "ferme",
         "date_depart": "2010-05-23",
-        "date_arrivee": "2006-06-19",
+        "date_arrivee": "2024-06-04",
         "cargo_plein": "poids",
         "produits": [
             {
@@ -92,6 +92,222 @@
                     "telephone": "+1 (688) 117-8625",
                     "adresse": "Mollit deleniti qui "
                 }
+            },
+            {
+                "code": "Molestias saepe alia",
+                "poids": "63",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Laudantium eius mag",
+                    "prenom": "Ut autem vero id qu",
+                    "telephone": "+1 (526) 697-3043",
+                    "adresse": "Veritatis soluta fug"
+                },
+                "destinataire": {
+                    "nom": "Aspernatur saepe err",
+                    "prenom": "Et eaque commodi sit",
+                    "telephone": "+1 (962) 955-1415",
+                    "adresse": "Ipsum cumque dolore"
+                }
+            },
+            {
+                "code": "In earum eius ipsum",
+                "poids": "12",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Commodo recusandae ",
+                    "prenom": "Non sit numquam rec",
+                    "telephone": "+1 (586) 704-9571",
+                    "adresse": "Eos voluptatem Qua"
+                },
+                "destinataire": {
+                    "nom": "Sed consequuntur qui",
+                    "prenom": "Accusantium recusand",
+                    "telephone": "+1 (756) 911-5923",
+                    "adresse": "Aut officia in persp"
+                }
+            },
+            {
+                "code": "Neque unde voluptate",
+                "poids": "68",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Velit autem accusan",
+                    "prenom": "Eiusmod voluptatum m",
+                    "telephone": "+1 (591) 949-2194",
+                    "adresse": "Debitis consectetur ",
+                    "email": null
+                },
+                "destinataire": {
+                    "nom": "Dolore deserunt cons",
+                    "prenom": "Eius sed enim quas a",
+                    "telephone": "+1 (153) 146-7525",
+                    "adresse": "Rerum ut cumque quas",
+                    "email": null
+                }
+            },
+            {
+                "code": "Cupiditate impedit ",
+                "poids": "70",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "cassable",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Perspiciatis vel ut",
+                    "prenom": "Aut aliquip minim la",
+                    "telephone": "+1 (667) 895-3089",
+                    "adresse": "Voluptates consectet",
+                    "email": null
+                },
+                "destinataire": {
+                    "nom": "Adipisicing ducimus",
+                    "prenom": "Ea omnis voluptas ea",
+                    "telephone": "+1 (419) 281-1767",
+                    "adresse": "Qui ut sunt voluptas",
+                    "email": null
+                }
+            },
+            {
+                "code": "Excepturi eos quod ",
+                "poids": "46",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Ut debitis aspernatu",
+                    "prenom": "Culpa beatae reicie",
+                    "telephone": "+1 (185) 539-6829",
+                    "adresse": "Pariatur Voluptate ",
+                    "email": null
+                },
+                "destinataire": {
+                    "nom": "Voluptatibus tenetur",
+                    "prenom": "Incididunt cillum al",
+                    "telephone": "+1 (248) 166-4633",
+                    "adresse": "Velit perferendis ni",
+                    "email": null
+                }
+            },
+            {
+                "code": "Provident soluta ev",
+                "poids": "64",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Sint culpa facere a",
+                    "prenom": "Minim voluptatem fa",
+                    "telephone": "+1 (307) 718-5152",
+                    "adresse": "Quae eum deserunt ex",
+                    "email": null
+                },
+                "destinataire": {
+                    "nom": "Id qui autem quis ve",
+                    "prenom": "In dolores dolorum l",
+                    "telephone": "+1 (394) 693-8764",
+                    "adresse": "Minima suscipit eius",
+                    "email": null
+                }
+            },
+            {
+                "code": "Velit aut officia su",
+                "poids": "1",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Laboris officia mini",
+                    "prenom": "Et cum repudiandae m",
+                    "telephone": "+1 (182) 864-3837",
+                    "adresse": "Et et ad voluptate c",
+                    "email": "seck22111@gmail.com"
+                },
+                "destinataire": {
+                    "nom": "Ut veniam proident",
+                    "prenom": "Mollitia et tenetur ",
+                    "telephone": "+1 (144) 598-1745",
+                    "adresse": "Amet omnis beatae v",
+                    "email": "seck22111@gmail.com"
+                }
+            },
+            {
+                "code": "",
+                "poids": "",
+                "type_produit": "",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": "",
+                    "email": ""
+                },
+                "destinataire": {
+                    "nom": "",
+                    "prenom": "",
+                    "telephone": "",
+                    "adresse": "",
+                    "email": ""
+                }
+            },
+            {
+                "code": "Ut ea est saepe lau",
+                "poids": "64",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Distinctio Deserunt",
+                    "prenom": "Et nihil nulla id a",
+                    "telephone": "+1 (593) 239-5271",
+                    "adresse": "Ut dolore quos natus",
+                    "email": "qudeqo@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "In at magnam quos hi",
+                    "prenom": "Aut mollit sint nos",
+                    "telephone": "+1 (599) 759-5091",
+                    "adresse": "Odio ad eveniet ass",
+                    "email": "rimaqurydo@mailinator.com"
+                }
+            },
+            {
+                "code": "Facilis temporibus c",
+                "poids": "6",
+                "type_produit": "chimique",
+                "degre_toxicite": "122",
+                "type_materiel": "",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Sapiente recusandae",
+                    "prenom": "Quas necessitatibus ",
+                    "telephone": "+1 (329) 429-9109",
+                    "adresse": "Dolore unde aliquip ",
+                    "email": "guniteg@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Et atque commodo con",
+                    "prenom": "Quam irure quia cons",
+                    "telephone": "+1 (616) 566-7454",
+                    "adresse": "Soluta facere id nat",
+                    "email": "cutikomede@mailinator.com"
+                }
             }
         ]
     },
@@ -104,7 +320,7 @@
         "distance": "380.74",
         "type": "aerienne",
         "statut": "Perdu",
-        "etat": "ferme",
+        "etat": "ouvert",
         "date_depart": "2006-12-25",
         "date_arrivee": "2022-12-11",
         "cargo_plein": "nombre",
@@ -259,8 +475,8 @@
         "arrivee": "S\u00e9n\u00e9gal",
         "distance": "206.62",
         "type": "aerienne",
-        "statut": "Termin\u00e9",
-        "etat": "ferme",
+        "statut": "Perdu",
+        "etat": "ouvert",
         "date_depart": "1991-04-01",
         "date_arrivee": "1982-08-24",
         "cargo_plein": "nombre",
@@ -320,6 +536,50 @@
                     "telephone": "",
                     "adresse": ""
                 }
+            },
+            {
+                "code": "Totam iusto illo ape",
+                "poids": "47",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "In laudantium quam ",
+                    "prenom": "Rem fugiat aliqua C",
+                    "telephone": "+1 (341) 885-5092",
+                    "adresse": "Lorem aute porro vol",
+                    "email": "liqakuhi@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Nulla sunt et incidi",
+                    "prenom": "Laboriosam dolores ",
+                    "telephone": "+1 (973) 791-8765",
+                    "adresse": "Aut dolor aut corpor",
+                    "email": "kysar@mailinator.com"
+                }
+            },
+            {
+                "code": "Earum omnis velit t",
+                "poids": "69",
+                "type_produit": "chimique",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "In maxime duis reici",
+                    "prenom": "Ad saepe in inventor",
+                    "telephone": "+1 (429) 795-3872",
+                    "adresse": "Eum cum magni mollit",
+                    "email": "doko@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Dolor incididunt est",
+                    "prenom": "Similique eligendi d",
+                    "telephone": "+1 (714) 506-7697",
+                    "adresse": "Omnis delectus labo",
+                    "email": "gojyfa@mailinator.com"
+                }
             }
         ]
     },
@@ -332,7 +592,7 @@
         "distance": "328.58",
         "type": "routiere",
         "statut": "termine",
-        "etat": "ouvert",
+        "etat": "ferme",
         "date_depart": "2023-12-24",
         "date_arrivee": "1979-02-23",
         "cargo_plein": "nombre"
@@ -361,7 +621,7 @@
         "distance": "247.29",
         "type": "maritime",
         "statut": "termine",
-        "etat": "ferme",
+        "etat": "ouvert",
         "date_depart": "2001-07-05",
         "date_arrivee": "2015-09-22",
         "cargo_plein": "nombre"
@@ -374,11 +634,12 @@
         "arrivee": "S\u00e9n\u00e9gal",
         "distance": "279.35",
         "type": "aerienne",
-        "statut": "en-cours",
+        "statut": "Perdu",
         "etat": "ferme",
         "date_depart": "2017-05-01",
         "date_arrivee": "2021-10-14",
-        "cargo_plein": "nombre"
+        "cargo_plein": "nombre",
+        "produits": null
     },
     {
         "numero": "CGN123",
@@ -751,11 +1012,316 @@
         "arrivee": "Mali",
         "distance": "363.86",
         "type": "maritime",
-        "statut": "Termin\u00e9",
-        "etat": "ferme",
+        "statut": "en-attente",
+        "etat": "ouvert",
         "date_depart": "2024-06-01",
         "date_arrivee": "2024-06-02",
         "cargo_plein": "poids",
-        "produits": null
+        "produits": [
+            {
+                "code": "PRD6662240a07306",
+                "poids": "9",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "",
+                "client": {
+                    "nom": "Tempore ea eum et q",
+                    "prenom": "Consequuntur sapient",
+                    "telephone": "+1 (958) 241-5049",
+                    "adresse": "Sint cumque ipsum e",
+                    "email": "zisugero@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Quia ea id ratione i",
+                    "prenom": "Labore occaecat inci",
+                    "telephone": "+1 (922) 195-7659",
+                    "adresse": "Sit sed cum nulla s",
+                    "email": "nadap@mailinator.com"
+                }
+            },
+            {
+                "code": "PRD666226b9856ae",
+                "poids": "55",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "In aut in libero qui",
+                    "prenom": "At est quos et culp",
+                    "telephone": "+1 (608) 717-2853",
+                    "adresse": "Assumenda tenetur no",
+                    "email": "bimuki@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Veritatis placeat q",
+                    "prenom": "Nostrum obcaecati ut",
+                    "telephone": "+1 (903) 833-2552",
+                    "adresse": "Consequatur Dolorem",
+                    "email": "sotyvamyto@mailinator.com"
+                }
+            },
+            {
+                "code": "PRD666227411568b",
+                "poids": "9",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "",
+                "client": {
+                    "nom": "Pariatur Reprehende",
+                    "prenom": "Veritatis minim pari",
+                    "telephone": "783830020",
+                    "adresse": "gsdgsg",
+                    "email": "seck22331@gmail.com"
+                },
+                "destinataire": {
+                    "nom": "serigne fallou",
+                    "prenom": "serigne fallou",
+                    "telephone": "783830020",
+                    "adresse": "In ea et sequi conse",
+                    "email": "seck22331@gmail.com"
+                }
+            },
+            {
+                "code": "PRD666228ec66142",
+                "poids": "50",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "fadildev",
+                    "prenom": "fadil",
+                    "telephone": "+221783830020",
+                    "adresse": "Veniam dolorem qui ",
+                    "email": "seck22331@gmail.com"
+                },
+                "destinataire": {
+                    "nom": "Tempore rerum dolor",
+                    "prenom": "Veniam ut id asper",
+                    "telephone": "+221783830020",
+                    "adresse": "Voluptatum consectet",
+                    "email": "seck22331@gmail.com"
+                }
+            },
+            {
+                "code": "PRD6662ccf874f24",
+                "poids": "80",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "6",
+                "type_materiel": "",
+                "etat": "",
+                "client": {
+                    "nom": "Molestias a reiciend",
+                    "prenom": "Commodo fugiat tene",
+                    "telephone": "+1 (684) 151-6603",
+                    "adresse": "Elit provident par",
+                    "email": "teru@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Cupidatat nemo modi ",
+                    "prenom": "Nulla suscipit ab do",
+                    "telephone": "+1 (709) 544-8856",
+                    "adresse": "Nihil et accusantium",
+                    "email": "decenen@mailinator.com"
+                }
+            },
+            {
+                "code": "PRD6662d47807422",
+                "poids": "13",
+                "type_produit": "materiel",
+                "degre_toxicite": "9",
+                "type_materiel": "incassable",
+                "etat": "",
+                "client": {
+                    "nom": "Dicta dolor quas sed",
+                    "prenom": "Voluptates et aspern",
+                    "telephone": "+1 (692) 105-7296",
+                    "adresse": "Illo in necessitatib",
+                    "email": "dacuc@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Blanditiis quis aspe",
+                    "prenom": "Dolor voluptatum nih",
+                    "telephone": "+1 (206) 459-1178",
+                    "adresse": "At dolor adipisicing",
+                    "email": "vexy@mailinator.com"
+                }
+            },
+            {
+                "code": "PRD6662ddd675430",
+                "poids": "3",
+                "type_produit": "materiel",
+                "degre_toxicite": "",
+                "type_materiel": "incassable",
+                "etat": "",
+                "client": {
+                    "nom": "Quae exercitation na",
+                    "prenom": "Molestiae omnis quae",
+                    "telephone": "+1 (204) 114-5145",
+                    "adresse": "Qui aut est aut mag",
+                    "email": "ripys@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Aliquip fugiat vita",
+                    "prenom": "Aut laudantium odit",
+                    "telephone": "+1 (921) 916-8916",
+                    "adresse": "Dolores placeat ull",
+                    "email": "dynoxekiko@mailinator.com"
+                }
+            },
+            {
+                "code": "PRD6662ec6e6ec1c",
+                "poids": "20",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "5",
+                "type_materiel": "cassable",
+                "etat": "",
+                "client": {
+                    "nom": "Suscipit magnam prov",
+                    "prenom": "Sit accusamus beata",
+                    "telephone": "+1 (659) 907-3944",
+                    "adresse": "Ea dicta non eum dol",
+                    "email": "zidenypoly@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Vitae possimus aut ",
+                    "prenom": "Non sint eum et do e",
+                    "telephone": "+1 (732) 244-5987",
+                    "adresse": "Qui velit sunt quos ",
+                    "email": "cihuwyc@mailinator.com"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN806",
+        "poids_max": "5",
+        "prix": "27",
+        "depart": "Communaut\u00e9 rurale de Notto, S\u00e9n\u00e9gal (14.689881366618774, -16.842041015625004)",
+        "arrivee": "Kiran\u00e9, Kayes, Mali (15.411319377981005, -10.228271484375002)",
+        "distance": "714.68",
+        "type": "aerienne",
+        "statut": "termine",
+        "etat": "ferme",
+        "date_depart": "1996-12-21",
+        "date_arrivee": "2010-07-14",
+        "cargo_plein": "poids"
+    },
+    {
+        "numero": "CGN748",
+        "poids_max": "122",
+        "prix": "12",
+        "depart": "Communaut\u00e9 rurale de Notto Gouye Diama, S\u00e9n\u00e9gal (14.966013251567164, -16.875000000000004)",
+        "arrivee": "Guimbana, Kayes, Mali (15.114552871944115, -9.492187500000002)",
+        "distance": "792.95",
+        "type": "maritime",
+        "statut": "en-attente",
+        "etat": "ferme",
+        "date_depart": "2024-06-06",
+        "date_arrivee": "2024-06-07",
+        "cargo_plein": "poids",
+        "produits": [
+            {
+                "code": "PRD6662f2ce9559e",
+                "poids": "32",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "ferme",
+                "client": {
+                    "nom": "Exercitationem conse",
+                    "prenom": "Mollit labore alias ",
+                    "telephone": "+1 (121) 557-5827",
+                    "adresse": "Voluptatem rem arch",
+                    "email": "libuvalihu@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Alias deserunt dolor",
+                    "prenom": "Voluptate iste omnis",
+                    "telephone": "+1 (206) 843-2842",
+                    "adresse": "Dolorem culpa deser",
+                    "email": "xisa@mailinator.com"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN743",
+        "poids_max": "119",
+        "prix": "1232",
+        "depart": "Communaut\u00e9 rurale de Dealy, S\u00e9n\u00e9gal (14.987239525774259, -15.622558593750002)",
+        "arrivee": "Niakat\u00e9la, Kayes, Mali (15.072123545811683, -10.458984375000002)",
+        "distance": "554.59",
+        "type": "maritime",
+        "statut": "Perdu",
+        "etat": "ferme",
+        "date_depart": "2024-06-05",
+        "date_arrivee": "2024-06-07",
+        "cargo_plein": "poids",
+        "produits": [
+            {
+                "code": "PRD6662f5272d5bd",
+                "poids": "17",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "Perdu",
+                "client": {
+                    "nom": "Omnis soluta duis in",
+                    "prenom": "Atque id quasi labor",
+                    "telephone": "+1 (473) 521-6897",
+                    "adresse": "Obcaecati consequatu",
+                    "email": "jibuwezog@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Sapiente qui archite",
+                    "prenom": "Placeat cupiditate ",
+                    "telephone": "+1 (758) 291-9736",
+                    "adresse": "Libero cum ipsum co",
+                    "email": "zacalevu@mailinator.com"
+                }
+            }
+        ]
+    },
+    {
+        "numero": "CGN482",
+        "poids_max": "1223",
+        "prix": "12",
+        "depart": "Communaut\u00e9 rurale de Fissel, S\u00e9n\u00e9gal (14.562317701914855, -16.545410156250004)",
+        "arrivee": "Bok\u00e9-Centre, R\u00e9gion de Bok\u00e9, Guin\u00e9e (10.833305983642491, -14.326171875000002)",
+        "distance": "479.44",
+        "type": "maritime",
+        "statut": "Terminé",
+        "etat": "ouvert",
+        "date_depart": "2024-05-30",
+        "date_arrivee": "2024-06-07",
+        "cargo_plein": "nombre",
+        "produits": [
+            {
+                "code": "PRD6662fd245cd5e",
+                "poids": "85",
+                "type_produit": "alimentaire",
+                "degre_toxicite": "",
+                "type_materiel": "",
+                "etat": "Terminé",
+                "client": {
+                    "nom": "At et aliquip optio",
+                    "prenom": "Consequatur Debitis",
+                    "telephone": "+1 (281) 318-1708",
+                    "adresse": "Et est laboriosam e",
+                    "email": "lonokufado@mailinator.com"
+                },
+                "destinataire": {
+                    "nom": "Excepteur et iure es",
+                    "prenom": "Et dolorem ratione e",
+                    "telephone": "+1 (727) 494-2419",
+                    "adresse": "Aperiam anim quis el",
+                    "email": "jatygibuf@mailinator.com"
+                }
+            }
+        ]
     }
 ]
